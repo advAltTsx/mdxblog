@@ -1,14 +1,9 @@
-"use client"
 
 
 import { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Coffee",
-  description:
-    "@advwastaken",
-};
+
 
 export default function RootLayout({
   children,
@@ -17,6 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+        <title>Coffee</title>
+        <meta name='description' content='@advwastaken' />
+      </head>
       <body>{children}</body>
     </html>
   );
