@@ -7,9 +7,6 @@ import { compareDesc, format, parseISO } from "date-fns";
 import Link from "next/link";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Blogs - Next.js App Dir Blog",
-};
 
 function Postdiv(post: Post) {
   return (
