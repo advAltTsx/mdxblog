@@ -65,7 +65,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
       <div className=" w-full h-fit flex flex-col pb-32 ">
         <Header />
 
-        <div style={gradientStyle} className="opacity-30" />
+        <div className=`opacity-30 h-[100vh] absolute w-full z-1 bg-gradient-to-b from-[${color1}] to-[${color2}]` />
 
         <div className="  flex flex-col items-center relative z-10 mt-28 ">
           <div className="max-w-7xl mx-auto lg:px-20 md:px-11 px-8">
